@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@600&display=swap');
+
+.admin{
+	position: absolute;
+	width: 111px;
+	height: 43px;
+	left: 17px;
+	top: 22px;
+	
+	font-family: 'Hahmlet', serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 38px;
+	
+	color: #FFFFFF;
+}
+
+.b{
+	position: absolute;
+	width: 111px;
+	height: 43px;
+	left: 120px;
+	top: 22px;
+	
+	font-family: 'Hahmlet', serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 38px;
+	
+	color: #FFFFFF;
+}
+
+.sentence{
+	position: absolute;
+	width: 667px;
+	height: 43px;
+	left: 30px;
+	top: 190px;
+	
+	
+	height: 43px;
+	font-family: 'Hahmlet', serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 38px;
+	
+	color: #FFFFFF;
+}
+.circle{
+	position: absolute;
+	left: 558px;
+	top: 179px;
+	
+	width : 162px;
+  height : 132px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+}  
+
+.circle1{
+	position: absolute;
+	left: 655px;
+	top: 126px;
+	
+	width : 162px;
+  height : 132px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+}  
+.circle2{
+	position: absolute;
+	left: 770px;
+	top: 151px;
+	
+	width : 162px;
+  height : 132px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+}  
+
+.circle2{
+	position: absolute;
+	left: 770px;
+	top: 151px;
+	
+	width : 162px;
+	height : 132px;
+	border-radius: 50%;
+	background-color: #FFFFFF;
+}
+ 
+.circle3{
+	position: absolute;
+	left: 886px;
+	top: 182px;
+	
+	width : 162px;
+  	height : 132px;
+  	border-radius: 50%;
+ 	background-color: #FFFFFF;
+} 
+.line1{
+	position: absolute;
+width: 501px;
+height: 0px;
+left: 550px;
+top: 225px;
+
+border: 2px solid #476DCC;
+}
+
+.login{
+	
+	border-color: gray;
+	color: gray;
+	font-family: 'Hahmlet', serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 20px;
+
+	background: #FFFFFF;
+	border-radius: 5px;
+	
+}
