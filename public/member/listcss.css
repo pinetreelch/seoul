@@ -37,7 +37,7 @@
 	width: 667px;
 	height: 43px;
 	left: 30px;
-	top: 190px;
+	top: 110px;
 	
 	
 	height: 43px;
@@ -52,10 +52,10 @@
 .circle{
 	position: absolute;
 	left: 558px;
-	top: 179px;
+	top: 99px;
 	
 	width : 162px;
-  height : 132px;
+  height : 82px;
   border-radius: 50%;
   background-color: #FFFFFF;
 }  
@@ -63,9 +63,9 @@
 .circle1{
 	position: absolute;
 	left: 655px;
-	top: 126px;
+	top: 46px;
 	
-	width : 162px;
+	width : 192px;
   height : 132px;
   border-radius: 50%;
   background-color: #FFFFFF;
@@ -73,7 +73,7 @@
 .circle2{
 	position: absolute;
 	left: 770px;
-	top: 151px;
+	top: 71px;
 	
 	width : 162px;
   height : 132px;
@@ -84,10 +84,10 @@
 .circle2{
 	position: absolute;
 	left: 770px;
-	top: 151px;
+	top: 71px;
 	
-	width : 162px;
-	height : 132px;
+	width : 192px;
+	height : 102px;
 	border-radius: 50%;
 	background-color: #FFFFFF;
 }
@@ -95,10 +95,10 @@
 .circle3{
 	position: absolute;
 	left: 886px;
-	top: 182px;
+	top: 102px;
 	
-	width : 162px;
-  	height : 132px;
+	width : 170px;
+  	height : 68px;
   	border-radius: 50%;
  	background-color: #FFFFFF;
 } 
@@ -107,7 +107,7 @@
 width: 501px;
 height: 0px;
 left: 550px;
-top: 225px;
+top: 145px;
 
 border: 2px solid #476DCC;
 }
@@ -124,5 +124,68 @@ border: 2px solid #476DCC;
 
 	background: #FFFFFF;
 	border-radius: 5px;
+}
+
+.pagehead{
 	
+	
+
+font-family: 'Hahmlet', serif;
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 43px;
+
+color: #000000;
+}
+
+.searchcat{
+	
+		
+	
+	font-family:'Hahmlet', serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 24px;
+	color: #000000;
+	
+}
+.bg {
+	
+	background-color: #D9D9D9;
+}
+.navtext{
+	
+	font-family: 'Hahmlet', serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 38px;
+	
+	color: black;
+}
+.edititem{
+	font-family: 'Hahmlet', serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 38px;
+	
+	color: black;
+	padding-right: 40px;
+	padding-left: 10px;
+}
+.edititem1{
+	font-family: 'Hahmlet', serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 38px;
+	
+	color: black;
+	border-color: #D9D9D9;
+	border-radius: 10px;
+	background-color: white;
+	text-align: center;
 }

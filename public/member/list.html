@@ -10,33 +10,207 @@
  <body>
 
  <div class="container-fluid">
-    <div class="row" style="background-color: #476DCC; height: 245px;" >
+    <div class="row" style="background-color: #476DCC; height: 165px;" >
         <div class="col-3">
 	        	<span class="admin"> Admin </span>  <span class="b"> ㅣ </span>
-	        	<span class="sentence"> 검색으로 회원을 관리하세요!</span>
+	        	<span class="sentence"> Application manager </span>
 	        
-	        	<div class="circle"></div>
+	   <!--      	<div class="circle"></div>
 	       		<div class="circle1"></div>
 	        	<div class="circle2"></div>
-	        	<div class="circle3"></div>
+	        	<div class="circle3"></div> -->
 	        
 	        	<hr class="line1"/>
         </div>
         <div class="col-7"></div>
         <div class="col-2" style="padding: 20px;">
         		<div col class=" col-4 offset-8">
-        			<button class="login btn btn-primary"  >로그인</div>
+        			<button class="login btn btn-primary">로그인</button>
         		</div>
-        
         </div>
-    </div>
+     </div>
  </div>
+ 
+ <div class="container-fluid bg" >
+ <nav class="nav justify-content-center">
+  <a class="nav-link navtext" href="#">회원 관리</a>
+  <a class="nav-link navtext" href="#">코드 관리</a>
+  <a class="nav-link navtext" href="#">코드그룹관리</a>
+</nav>
+</div>
+<br /><br />
 
+
+<div class="container">
+    <div class="row" >
+    	<span class="pagehead"> ⦁ 지원자 리스트</span> <br /><br /><br />
+    </div>
+    
+    <div class="row" style="background-color: #D9D9D9;  height: 60px; padding: 12px; border-top-left-radius: 10px; border-top-right-radius: 10px;">
+    	<div class="col-2 " style="width: 130px; padding: 5px;">
+			<span class="searchcat" style=>- 지원자 분류:</span>
+		</div>	
+		<div class="col-2" style="text-align: center; ">
+			<select class="form-select" aria-label="Default select example">
+			  <option selected>성별</option>
+			  <option value="1">One</option>
+			  <option value="2">Two</option>
+			  <option value="3">Three</option>
+			</select>
+		</div>
+		<div class="col-2" style="text-align: center;">
+			<select class="form-select" aria-label="Default select example">
+			  <option selected>전형</option>
+			  <option value="1">One</option>
+			  <option value="2">Two</option>
+			  <option value="3">Three</option>
+			</select>
+		</div>
+		<div class="col-2" style="text-align: center; ">
+			<select class="form-select" aria-label="Default select example">
+			  <option selected>가입일</option>
+			  <option value="1">One</option>
+			  <option value="2">Two</option>
+			  <option value="3">Three</option>
+			</select>
+		</div>
+		<div class="col-2" style="text-align: center; ">
+			<select class="form-select" aria-label="Default select example">
+			  <option selected>등록일</option>
+			  <option value="1">One</option>
+			  <option value="2">Two</option>
+			  <option value="3">Three</option>
+			</select>
+		</div>
+	</div>
+	    	
+   	<div class="row" style="background-color: #D9D9D9;  height: 60px; padding: 12px; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;">
+   		<div class="col-2" style="width: 130px; padding: 5px; ">
+   			<span class="searchcat">- 검색어:</span>
+   		</div>
+   		<div class="col-6" >
+   			<input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+   		</div>
+   		<div class="col-3">
+	   		<button type="button" class="btn btn-primary">
+				<i class="fa-solid fa-magnifying-glass"></i>	
+			</button>
+			<button type="button" class="btn btn-danger">
+				<i class="fa-solid fa-arrow-rotate-right"></i>	
+			</button>
+			
+   			
+   		</div>
+   		<br />
+   		<br />
+   		<br />
+ </div>
+ <br />
+
+
+	 
+	 <div class="row">
+	 	<table class="table ">
+	 		<thead>
+	 			<tr>
+	 				<th class="table-primary"></th>
+	 				<th class="table-primary">#</th>
+	 				<th class="table-primary">이름</th>
+	 				<th class="table-primary">성별</th>
+	 				<th class="table-primary">생년월일</th>
+	 				<th class="table-primary">이메일</th>
+	 				<th class="table-primary">모바일</th>
+	 				<th class="table-primary">전공</th>
+	 				<th class="table-primary">등록일</th>
+	 			</tr>
+	 		</thead>
+	 		<tbody>
+	 			<tr>
+	 				<td>
+	 					 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+	 				</td>
+	 				<td>1</td>
+	 				<td>김명학</td>
+	 				<td>남</td>
+	 				<td>1996.02.15</td>
+	 				<td>sdfsdf@naver.com</td>
+	 				<td>01058789292</td>
+	 				<td>경영학과</td>
+	 				<td>2018.07.21</td>
+	 			</tr>
+	 			<tr>
+	 				<td>
+	 				 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+	 				</td>
+	 				<td>2</td>
+	 				<td>고두심</td>
+	 				<td>여</td>
+	 				<td>1987.02.22</td>
+	 				<td>vmkmds@gmail.com</td>
+	 				<td>101098762323</td>
+	 				<td>컴퓨터공학과</td>
+	 				<td>2015.03.25</td>
+	 			</tr>
+	 			<tr>
+	 				<td>
+	 					 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+	 				</td>
+	 				<td>3</td>
+	 				<td>고경호</td>
+	 				<td>남</td>
+	 				<td>1999.11.15</td>
+	 				<td>inbfsmf@daum.net</td>
+	 				<td>01028942932</td>
+	 				<td>심리학과</td>
+	 				<td>2011.03.25</td>
+	 			</tr>
+	 			<tr>
+	 				<td>
+	 					 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+	 				</td>
+	 				<td>4</td>
+	 				<td>김세리</td>
+	 				<td>여</td>
+	 				<td>2001.03.25</td>
+	 				<td>sdfsfe@naver.com</td>
+	 				<td>0108382902</td>
+	 				<td>사회학과</td>
+	 				<td>2019.11.12</td>
+	 			</tr>
+	 		</tbody>
+	 	</table>
+	 </div>
+	 <div class="row gx-0">
+	 	<div class="col-4"></div>
+	 	<div class="col-4"></div>
+	 	<div class="col-1"></div>
+	 	<div class="col-3">
+	 		<div style="background-color: #D9D9D9; border-color:#D9D9D9; border-radius: 10px;">
+	 			<span class="edititem">⦁지원자 일괄수정:</span>
+	 			<button class="edititem1">수정</span>
+	 			<button class="edititem1">삭제</span>
+	 		</div>
+	 	</div>
+	 </div>
+ 	<div class="row">
+ 		<nav aria-label="Page navigation example">
+		  <ul class="pagination justify-content-center">
+		    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+		    <li class="page-item"><a class="page-link" href="#">1</a></li>
+		    <li class="page-item"><a class="page-link" href="#">2</a></li>
+		    <li class="page-item"><a class="page-link" href="#">3</a></li>
+		    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+		  </ul>
+		</nav>
+ 	</div>
+ 
+ </div>
  
 
 
- 
- 
+    
+
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+ <script src="https://kit.fontawesome.com/06cf56417a.js" crossorigin="anonymous"></script>
 </body>
 </html>
