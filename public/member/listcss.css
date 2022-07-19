@@ -1,11 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Hahmlet:wght@600&display=swap');
 
 .admin{
-	position: absolute;
-	width: 111px;
-	height: 43px;
-	left: 17px;
-	top: 22px;
+	
 	
 	font-family: 'Hahmlet', serif;
 	font-style: normal;
@@ -33,15 +30,9 @@
 }
 
 .sentence{
-	position: absolute;
-	width: 667px;
-	height: 43px;
-	left: 30px;
-	top: 110px;
 	
-	
-	height: 43px;
-	font-family: 'Hahmlet', serif;
+	text-align: center;
+	font-family: 'Cinzel', serif;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 32px;
@@ -138,6 +129,31 @@ line-height: 43px;
 
 color: #000000;
 }
+.pagehead1{
+	
+	
+
+font-family: 'Hahmlet', serif;
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 43px;
+
+color: #000000;
+}
+
+.pagehead2{
+	
+	
+
+font-family: 'Hahmlet', serif;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 43px;
+
+color: #000000;
+}
 
 .searchcat{
 	
@@ -188,4 +204,7 @@ color: #000000;
 	border-radius: 10px;
 	background-color: white;
 	text-align: center;
+}
+.dropdown-menu li{
+	display: inline-block; 
 }
