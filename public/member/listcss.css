@@ -13,6 +13,8 @@
 	color: #FFFFFF;
 }
 
+
+
 .b{
 	position: absolute;
 	width: 111px;
@@ -207,4 +209,24 @@ color: #000000;
 }
 .dropdown-menu li{
 	display: inline-block; 
+}
+
+.id1{
+	
+	
+	font-family: 'Hahmlet', serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 36.5px;
+	
+	color: black;
+}
+
+.bd{
+	height: 50px;
+	border: solid;
+	border-width: thin;
+	border-color: #E6E6E6;
+	
 }
