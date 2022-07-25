@@ -42,6 +42,17 @@
 	
 	color: #FFFFFF;
 }
+.sentence1{
+	
+	text-align: center;
+	font-family: 'Cinzel', serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 38px;
+	
+	color: black;
+}
 .circle{
 	position: absolute;
 	left: 558px;
@@ -228,5 +239,30 @@ color: #000000;
 	border: solid;
 	border-width: thin;
 	border-color: #E6E6E6;
-	
+}
+
+.formspan{
+	font-family: 'Hahmlet', serif;
+
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+
+color: rgba(0, 0, 0, 0.5);
+}
+.formspan1{
+	font-family: 'Hahmlet', serif;
+
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+
+color: rgba(0, 0, 0, 0.5);
+}
+.borderbox{
+background: #FFFFFF;
+border: 1px solid #D9D9D9;
+border-radius: 5px;
+
+padding: 10px;
 }
