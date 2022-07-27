@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300&display=swap');
+
+.heading{
+	font-family: 'Inria Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 19px;
+	color: rgba(0, 0, 0, 0.49);
+	
+}
+a:link {
+	text-decoration: none
+	
+	}
+a:visited{	
+	color: black; text-decoration: none;
+}
+a:hover{
+	color: black; text-decoration: none;
+}
+.bookhead{
+	
+		font-family: 'Inria Sans';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 38px;
+		color: #1E9EFF;
+}
+
+.inputclass{
+       background-image: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-256.png);
+    background-position: 10px center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid #ccc;
+
+    padding: 5px 5px;
+    text-indent: 35px;
+    
+    width: 120px;
+}
+.inputclass:focus {
+    background-image: none;
+    background-position: -20px center;
+    text-indent: 40;
+    width: 50%;
+}
+.category{
+	
+	font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 300px;
+font-size: 14px;
+line-height: 30px;
+
+color: #000000;
+}
+.recommend{
+		font-family: 'Inria Sans';
+		font-style: normal;
+		font-weight: strong;
+		line-height: 20px;
+ border: 0;
+  outline: none;
+  font-size: 14px;
+  margin: 0px;
+  background: #1E9EFF;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.best{
+	
+	font-family: 'Inria Sans';
+		font-style: normal;
+		font-weight: 2000;
+		line-height: 20px;
+		
+	outline: none;
+  font-size: 14px;
+  margin: 0px;
+  background: white;
+  color: black;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 15px;
+  border: 0;
+}
+.bodyd{
+	max-width: 100%;
+	width: 1150px;
+	margin-left: auto;
+	margin-right: auto;
+}
