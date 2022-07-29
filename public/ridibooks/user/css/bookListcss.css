@@ -117,72 +117,25 @@ line-height: 29px;
 color: #000000;
 }
 
-.slideShow{
-  width: 1130px;
-  height: 180px;
-  position: relative;
-  margin: 30px auto;
-  overflow: hidden; 	
+#slider{
+ height: 140px;
+ width: 100%
 }
 
-.slides{
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 220px; /* 슬라이드할 사진과 마진 총 넓이 */
-  transition: left 0.5s ease-out; 
-  padding-left:0px;
-}
-
-.slides li{
-	
-	list-style-type:none;
-	padding-left:0px;
-}
-
-.slides li:first-child{
-  margin-left: 12px;
-}
-
-.slides li:not(:last-child){
-  float: left;
-  margin-right: 12px;
-}
-
-.slides li{
-  float: left;
-}
-
-.controller span{
-  position:absolute;
-  background-color: transparent;
-  color: black;
-  text-align: center;
+.button-box a {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  background-color: #585858;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
-  padding: 10px 20px;
-  top: 50%;
-  font-size: 1.3em;
-  cursor: pointer;
+  line-height:40px;
+  text-align:center;
+  font-weight:bold;
+  margin-right: 10px;
 }
 
-.controller span:hover{
-  background-color: rgba(128, 128, 128, 0.11);
+.button-box a:last-child {
+  margin-right: 0px;
 }
-
-.prev{
-  left: 10px;
-}
-
-.prev:hover{
-  transform: translateX(-10px);
-}
-
-.next{
-  right: 10px;
-}
-
-.next:hover{
-  transform: translateX(10px);
-}
-
-
