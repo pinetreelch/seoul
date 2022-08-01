@@ -39,7 +39,7 @@ var Slider = function(id, _web, _tab, _mobile, spacing){
   var items = document.querySelector('#'+ id + ' .slider').children;
   for(var i=0; i<items.length; i++){
     items[i].style.float = 'left';
-    items[i].style.height = '100%';
+    items[i].style.height = '85%';
     items[i].style.width = (sliderItemWidth-spacing)+ 'px';
     items[i].style['margin-right'] = spacing+'px'; // 간격
   }
@@ -73,7 +73,7 @@ var Slider = function(id, _web, _tab, _mobile, spacing){
     display = count;
 
     containerWidth = container.offsetWidth + spacing;
-    sliderItemWidth = containerWidth / display;
+    sliderItemWidth = containerWidth / display * 1.35;
 
     document.querySelector('#'+ id + ' .slider').style.width = totalCount * sliderItemWidth + spacing * totalCount + 'px';
     var items = document.querySelector('#'+ id + ' .slider').children;
@@ -94,7 +94,7 @@ var Slider = function(id, _web, _tab, _mobile, spacing){
     setDisplayCount: setDisplayCount,
     move: function(index){
       left = (-1) * sliderItemWidth * index;
-      document.querySelector('#'+ id + ' .slider').style.left = left + 'px';
+      document.querySelector('#' + id + ' .slider').style.left = left + 'px';
     },
     prev: function(){
       left += sliderItemWidth;
