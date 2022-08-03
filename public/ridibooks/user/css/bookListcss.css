@@ -256,5 +256,46 @@ line-height: 24px;
 
 color: #787878;
 padding-bottom: 6px;	
+}
+
+.preview{
+	font-family: 'Inria Sans';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 25px;
 	
+	color: #1F8CE6;
+		
+}
+
+.genre{
+	font-family: 'Inria Sans';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 25px;
+	
+	color: #333333;
+}
+
+.booktitleView{
+	font-family: 'Inria Sans';
+	font-style: normal;
+	font-weight: 500;
+	font-size:30px;
+	line-height: 25px;
+	display:inline-block;
+	margin-top:8px;
+	color: #333333;
+}
+.bookSubtitleView{
+	font-family: 'Inria Sans';
+	font-style: normal;
+	font-weight: 500;
+	font-size:13px;
+	line-height: 25px;
+	display:inline-block;
+	margin-top:8px;
+	color: #666666;
 }
