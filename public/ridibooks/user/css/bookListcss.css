@@ -97,6 +97,7 @@ color: #000000;
 	margin-right: auto;
 }
 
+
 .menuicon{
 	font-family: 'Inria Sans';
 font-style: normal;
@@ -299,3 +300,73 @@ padding-bottom: 6px;
 	margin-top:8px;
 	color: #666666;
 }
+.bookauthor1{
+	
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 840;
+font-size: 13px;
+line-height: 22px;
+
+color: #666666;
+}
+.bookauthor2{
+	
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 440;
+font-size: 13px;
+line-height: 22px;
+
+color: #666666;
+}
+
+.sojang{
+	font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 840;
+font-size: 13px;
+line-height: 22px;
+
+color: #40474D;	
+}
+
+.panmae{
+	font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 340;
+font-size: 13px;
+line-height: 22px;
+color: #808991;	
+}
+
+.orgprice{
+	font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 900;
+font-size: 13px;
+line-height: 22px;
+color: #808991;	
+}
+
+.saleprice{
+	font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 900;
+font-size: 13px;
+line-height: 22px;
+color: #1F8CE6;	
+}
+
+.sojangbutton{
+	
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 900;
+font-size: 15px;
+line-height: 22px;
+color: white;	
+}
+	
+
+
