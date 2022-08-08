@@ -367,6 +367,96 @@ font-size: 15px;
 line-height: 22px;
 color: white;	
 }
+
+.publishinginfo{
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+color: #525A61;	
+padding-right: 7px;
+
+}
+.publishinginfo2{
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+color: #666666;	
+}
+.publishinginfo3{
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+
+color: #666666;	
+}
+
+ul, li{
 	
+	list-style-type:none;
+}
 
+.nowbest{
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 900;
+font-size: 13px;
+line-height: 25px;
+color: #333333;		
+margin: 0px 0px;
+}
 
+.rank{
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 900;
+font-size: 12px;
+line-height: 12px;
+color: #E64938;		
+}
+
+.title{
+	
+	font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 25px;
+color: #666666;	
+}
+.more{
+	
+	font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+color: #666666;	
+}
+
+.title_text{
+	
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+color: #59667A;	
+}
+.title_content{
+	
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+color: #333333;	
+}
+
+ #toc-content {
+    display: none;
+  }
+  
+    #toc-toggle {
+    cursor: pointer;
+    color: #2962ff;
+  }
