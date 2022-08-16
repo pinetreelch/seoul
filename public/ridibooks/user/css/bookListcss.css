@@ -10,9 +10,8 @@
 	color: rgba(0, 0, 0, 0.49);
 	
 }
-a:link {
+ a:link {
 	text-decoration: none
-	
 	}
 a:visited{	
 	color: black; text-decoration: none;
@@ -20,6 +19,8 @@ a:visited{
 a:hover{
 	color: black; text-decoration: none;
 }
+
+
 .bookhead{
 	
 		font-family: 'Inria Sans';
@@ -452,11 +453,58 @@ font-size: 13px;
 color: #333333;	
 }
 
+.authorprofile{
+	
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+color: #808991;	
+}
+.authorprofile2{
+	
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 900;
+font-size: 12px;
+color: #333333;	
+}
+.authorprofile3{
+	
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+color: #808991;	
+}
+
+.authorprofileName{
+	font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+color: #333333;	
+}
+.authorprofileName2{
+	font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 599;
+font-size: 14px;
+color: #999999;	
+}
+.bkvbest{
+padding-left: 16px;
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 599;
+font-size: 16px;
+color: #333333;	
+}
  #toc-content {
     display: none;
   }
   
-    #toc-toggle {
+  #toc-toggle {
     cursor: pointer;
     color: #2962ff;
   }
