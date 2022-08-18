@@ -580,6 +580,70 @@ font-size: 16px;
 color: white;	
 }
 
+.menutitle{
+
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+color: #212529;	
+}
+
+.menutitle1{
+
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 15px;
+color: 1F8CE6;	
+}
+
+.menutitle2{
+
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 15px;
+color: #40474D;	
+}
+
+.menutitle3{
+
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 15px;
+color: #808991;	
+}
+
+.idshow{
+
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+color: #000000;	
+}
+
+.emailshow{
+
+margin-top: 5px;
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 12px;
+color: #808991;	
+}
+
+.logoutbutton{
+
+margin-top: 5px;
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 13px;
+color: #636C73;	
+}
  #toc-content {
     display: none;
   }
