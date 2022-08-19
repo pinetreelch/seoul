@@ -644,6 +644,44 @@ font-weight: 800;
 font-size: 13px;
 color: #636C73;	
 }
+
+.litem{
+
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 14px;
+color: black;	
+}
+
+.cashleft{
+
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+color: #63A3E6;	
+}
+
+.cashhistory{
+
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 13px;
+color: #626D75;	
+}
+
+.recentbook{
+
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+color: #000000;	
+}
+
+
  #toc-content {
     display: none;
   }
