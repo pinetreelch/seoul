@@ -10,6 +10,7 @@
 	color: rgba(0, 0, 0, 0.49);
 	
 }
+
 a:link {
 	text-decoration: none
 	}
@@ -38,7 +39,7 @@ col-4 > a:visited{
 }
 
 .inputclass{
-       background-image: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-256.png);
+    background-image: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-256.png);
     background-position: 10px center;
     background-size: contain;
     background-repeat: no-repeat;
