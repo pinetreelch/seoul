@@ -15,7 +15,6 @@ a:link {
 	}
 a:visited{	
 	 text-decoration: none;
-	 color: black;
 }
 a:hover{
 	 text-decoration: none;
@@ -25,6 +24,7 @@ a:hover{
 col-4 > a:visited{
 	color:black;
 }
+
 
 
 .bookhead{
@@ -721,6 +721,140 @@ color: #666666;
 margin-left: 5px;
 }
 
+.changeinfo{
+			font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 21px;
+color: #333333;	
+}
+.changeinfoptag{
+			font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+color: #333333;	
+}
+.check{
+			font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+color: white;
+margin-left: 5px;	
+}
+
+.tableth{
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+color: #808991;
+}
+
+.tabletd{
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+color: #333333;
+}
+
+.tabletdid{
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+color: #333333;
+}
+
+.tabletdemail{
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+color: #333333;
+margin: 0px;
+}
+.expireinfo{
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+color: #808991;
+width: 88.17px;
+height: 31px;
+}
+
+.emailverification{
+	font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 200;
+font-size: 12px;
+color: #333333;
+}
+
+.emailchange{
+		font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+color: #FFFFFF;
+border: solid;
+border-color: #666666;
+border-width: 1px;
+border-radius: 3px;
+padding:0px;
+}
+
+.emailverification{
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 200;
+font-size: 12px;
+color: #333333;
+}
+
+.pwdchange{
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+color: #636C73;
+}
+
+.lispan{
+	padding-left: 5px;
+	font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+color: #666666;
+}
+
+.marketad{
+
+	font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+color: #636C73;
+}
+
+#text1 input::value{
+	font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+color: red;
+}
+#test input::placeholder {
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+color: #9EA7AD;
+}
  #toc-content {
     display: none;
   }

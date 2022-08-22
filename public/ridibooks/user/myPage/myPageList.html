@@ -5,7 +5,7 @@
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
 	  <title>마이 페이지</title>
 	  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-	  <link rel="stylesheet" href="../css/bookListcss.css" />	  	  	
+	  <link rel="stylesheet" href="../css/mypage.css" />	  	  	
 </head>	
  <body>
  	<div class="container-fluid">
@@ -26,9 +26,9 @@
 	<div class="container bodyd" >
 	 	<div class="row" >
 	 		<div class="col-4">
-	 			<div style="padding-top: 30px; display: inline-block;">
-				 	<a  href="../book/bookList.html" style="display: inline-block">	
-					 	<img src="https://active.ridibooks.com/navbar/icons/web/ridi.f50c563403f615565a7328888ba19f87.svg"  style="width:61px; height:23px; padding: 0px;">
+	 			<div class="aa" style="padding-top: 30px; display: inline-block;">
+				 	<a  href="../book/bookList.html" style="display: inline-block; color:black;">	
+					 	<img src="https://active.ridibooks.com/navbar/icons/web/ridi.f50c563403f615565a7328888ba19f87.svg"  style="width:61px; height:23px; padding: 0px; color:black;">
 					 	<img src="https://active.ridibooks.com/navbar/icons/web/genre_books.24933faed881f7e79f1f8d5f0c529370.svg" style="width:122px; height: 40px; padding: 4px;">
 				 	</a>
 				 </div>
@@ -44,12 +44,12 @@
 		 				</li>
 		 				<li style="display: inline-block;">
 		 					<a href="">
-		 						<i class="fa-solid fa-book-open fa-xl" style="width: 50px;"></i>
+		 						<i class="fa-solid fa-book-open fa-xl" style="width: 50px; color: black;"></i>
 		 					</a>
 		 				</li>
 		 				<li style="display: inline-block;">
 		 					<a href="">
-		 						<i class="fa-regular fa-user fa-xl" style="padding-top:30px;" "></i>
+		 						<i class="fa-regular fa-user fa-xl" style="padding-top:30px; color: black;"></i>
 		 					</a>
 		 				</li>
 				 	</ul>
@@ -104,7 +104,9 @@
 							<div class="menutitle3" style="padding-top:14px; padding-left: 22px;"> 1:1 문의</div>
 							<div class="menutitle3" style="padding-top:14px; padding-left: 22px;"> 내 기기 관리</div>
 							<div class="menutitle3" style="padding-top:14px; padding-left: 22px;"> 내 리뷰 관리</div>
-							<div class="menutitle3" style="padding-top:14px; padding-left: 22px;"> 정보 변경</div>
+							<div class="menutitle3" style="padding-top:14px; padding-left: 22px;">
+								 <a href="./myPageView.html" class="menutitle3">정보 변경</a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -240,10 +242,61 @@
 				
 				<div class="row" style="padding-top: 50px">
 					<div class="col-12">
-						
-							<span class="recentbook" style="padding-right: 14px;"> 최근 조회한 작품 </span>
-							<hr class="border border-danger border-2 opacity-50" style="display:inline-block;">
-						
+							<ul style="float:left; padding:0;">
+								<li class="recentbook" style="float:left; padding-right: 14px;">최근 조회한 작품</li>
+								<li style="float:left; width:450px;"><hr class="border border-dark border-2 border-opacity-75"/></li>
+								<li class="recentbook" style="float:left; padding-left: 10px;">
+									<button class="buttonall">전체 보기 >></button>
+								</li>
+							</ul>											
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-12">	
+						<div class="row"  style="padding-top:20px;">
+							<div class="col-12" style="width:144px;">
+								<div style="text-align: center;">
+									<a href="../book/bookView.html"><img src="http://image.kyobobook.co.kr/images/book/large/730/l9791170521730.jpg" class="border" alt="" style="width:110px; height: 167px;" /></a>
+								</div>
+								<a href="../book/bookView.html"><span class="d-block mypagebooktitle">미키7</span></a>
+								<span class="mypagebookauthor" >에드워드 에슈턴</span>
+							</div>
+
+							<div class="col-12" style="width:144px;">
+								<div style="text-align: center;">
+										<img src="http://image.kyobobook.co.kr/images/book/large/870/l9788997396870.jpg" alt="" style="width:110px; height: 167px;" />
+								</div>
+								<span class="d-block mypagebooktitle">오은영의 화해</span>
+								<span class="mypagebookauthor" >오은영</span>
+							</div>
+
+							<div class="col-12" style="width:144px;">
+								<div style="text-align: center;">
+										<img src="http://image.kyobobook.co.kr/images/book/large/362/l9788932922362.jpg" alt="" style="width:110px; height: 167px;" />
+								</div>
+								<span class="d-block mypagebooktitle">행성</span>
+								<span class="mypagebookauthor" >베르나르 베르베르</span>
+							</div>
+
+							<div class="col-12" style="width:144px;">
+								<div style="text-align: center;">
+										<img src="http://image.kyobobook.co.kr/images/book/large/729/l9791165343729.jpg" alt="" style="width:110px; height: 167px;" />
+								</div>
+								<span class="d-block mypagebooktitle">달라구트 꿈 백화점 2</span>
+								<span class="mypagebookauthor" >이미예</span>
+							</div>
+
+							<div class="col-12" style="width:144px;">
+								<div style="text-align: center;">
+										<img src="http://image.kyobobook.co.kr/images/book/large/208/l9788950996208.jpg" alt="" style="width:110px; height: 167px;" />
+								</div>
+								<span class="d-block mypagebooktitle">돈의 흐름</span>
+								<span class="mypagebookauthor" >전인구</span>
+							</div>
+							
+											
+						</div>
 					</div>
 				</div>
 			</div>
