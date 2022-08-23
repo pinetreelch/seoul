@@ -842,6 +842,24 @@ font-size: 13px;
 color: #636C73;
 }
 
+.rejectdate{
+
+	font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+color: #B8BFC4;
+}
+
+.marketinginfo{
+
+	font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+color: #666666;
+}
+
 #text1 input::value{
 	font-family: 'Inria Sans';
 font-style: normal;
@@ -849,6 +867,7 @@ font-weight: 600;
 font-size: 30px;
 color: red;
 }
+
 #test input::placeholder {
 font-family: 'Inria Sans';
 font-style: normal;
