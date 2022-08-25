@@ -19,13 +19,12 @@ a:visited{
 }
 a:hover{
 	 text-decoration: none;
-	 color: #1F8CE6;
+	 color: black;
 }
 
 col-4 > a:visited{
 	color:black;
 }
-
 
 
 .bookhead{
@@ -623,6 +622,25 @@ font-size: 15px;
 color: #808991;	
 }
 
+.menutitle34{
+
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 15px;
+color: #808991;	
+}
+
+.menutitle34 a{
+	color: black;
+}
+.menutitle34 a:visited{
+	color: #808991;
+}
+.menutitle34 a:hover{
+	color: black;
+}
+
 .idshow{
 
 font-family: 'Inria Sans';
@@ -858,6 +876,14 @@ font-style: normal;
 font-weight: 500;
 font-size: 13px;
 color: #666666;
+}
+
+#wishl a{
+	 text-decoration: none;
+	 color: black;
+}
+#wishl a:hover{
+	 text-decoration: none;
 }
 
 #text1 input::value{
