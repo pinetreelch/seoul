@@ -934,25 +934,24 @@ font-size: 12px;
 color: #666666;
 }
 .wishlistauthor2{
-						font-family: 'Inria Sans';
+font-family: 'Inria Sans';
 font-style: normal;
 font-weight: 600;
 font-size: 14px;
 color: #1F8CE6;
-float: right;
 }
 .wishlistauthor3{
-						font-family: 'Inria Sans';
+font-family: 'Inria Sans';
 font-style: normal;
 font-weight: 500;
 font-size: 12px;
 color: #AAB1B7;
-float: right;
-padding-right: 15px;
-display:table-col;
-vertical-align:middle;
+padding-right: 10px;
 }
 
+.wishlistbktitle a{
+	color: black;
+}
 #wishli{
 				font-family: 'Inria Sans';
 font-style: normal;
