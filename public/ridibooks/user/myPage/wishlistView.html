@@ -62,10 +62,17 @@
 				<div class="row">
 					<div class="col-12">
 						<div class="menutitle">마이리디</div>
-						<div class="border-bottom" style="padding-top:17px; padding-bottom:17px; color: #1F8CE6; width: 130px;">
-							<a href="" class="menutitle1" style="color: #1F8CE6">
-							<div style="display:inline-block; padding-right: 5px;"><i class="fa-solid fa-house"></i></div>
-							마이리디 홈
+						<div id="xxx" class="border-bottom" style="padding-top:17px; padding-bottom:17px; width: 130px;">
+							<!-- <a href="" class="menutitle1" style="color: #40474D">
+								<span style="display:inline-block; padding-right: 5px;">
+									<i class="fa-solid fa-house"></i>
+								</span>
+								마이리디 홈
+							</a> -->
+							
+							<a href="">
+								<i class="fa-solid fa-house"></i>
+								<span style="padding-left: 5px;">마이리디 홈</span>
 							</a>
 						</div>
 
@@ -77,7 +84,7 @@
 							
 							<div class="menutitle3" style="padding-top:14px; padding-left: 22px;"> 선호작품</div>
 							<div class="menutitle3" style="padding-top:14px; padding-left: 22px;"> 최근 조회한 작품</div>
-							<div class="menutitle3" style="padding-top:14px; padding-left: 22px;"> 위시 리스트</div>
+							<div class="menutitle34" style="padding-top:14px; padding-left: 22px;"> <a href="" style="color:#1F8CE6">위시 리스트</a></div>
 							<div class="menutitle3" style="padding-top:14px; padding-left: 22px;"> 독서노트</div>
 							<div class="menutitle3" style="padding-top:14px; padding-left: 22px;"> 신간알림</div>
 							<div class="menutitle3" style="padding-top:14px; padding-left: 22px;"> 이벤트 알림 설정</div>
@@ -113,7 +120,59 @@
 			</div>
 			
 			<div class="col-8" style="width: 721px;">
-				
+				<div class="row">
+					<div class="col-12">
+						<h3 class="wishlisttitle">
+							위시리스트
+							<span class="wishlistsubtitle"> 3</span>
+						</h3>
+						
+						<div class="d-grid"style="padding-top: 10px;">
+							<ul class="border-bottom border-2 wishul" style="padding-left:0; ;float:left; display:block; height: 30px; margin-bottom:0;">
+								<li id="wishli" style="float:left; border-bottom: 2px solid black; height:30px;"><a href="">등록순</a></li>
+								<li id="wishli" style="float:left; padding-left: 15px;">인기순</li>
+								<li id="wishli" style="float:left; padding-left: 15px;">낮은 가격순</li>
+								<li id="wishli" style="float:left; padding-left: 15px;">할인 도서</li>
+							</ul>
+						</div>
+						
+						<div class="border-bottom"style="padding-top:15px; padding-bottom:15px;">
+							<div class="form-check" style="display: inline-block;">
+							  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" style="width: 18px; height: 18px;">
+							  <label class="form-check-label marketad" for="flexCheckDefault" >
+							    전체 선택
+							  </label>
+							</div>
+							
+							<button class="movetocart" style="background-color:white;border: 1px solid #d1d5d9; border-radius: 4px; float: right; width: 68px; height: 28px;padding:7px; margin-left: 5px;">선택 삭제</button>
+							<button class="movetocart" style="background-color:white;border: 1px solid #d1d5d9; border-radius: 4px; float: right; width: 104px; height: 28px;padding:7px;">선택 카트로 이동</button>
+						</div>
+						
+						<div class="border-bottom">
+							<div style=" width:28px; height: 124px; padding-top: 50px;padding-bottom:50px; float:left;">
+								<div class="form-check" style="display: inline-block;">
+							 		 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" style="width: 18px; height: 18px;">
+								</div>
+							</div>
+							
+							<div style="width:60px; height: 124px; padding-top: 20px;padding-bottom:20px; float:left;">
+								<img class="border"src="http://image.kyobobook.co.kr/images/book/large/730/l9791170521730.jpg" alt="" style="width:60px; height:84px;"/>
+							</div>
+							
+							<div style="display:inline-block; width:609px; height: 124px; padding-top: 15px;padding-bottom:10px; padding-left: 15px;">
+								<p class="wishlistbktitle" style="margin-bottom:3px;">미키7</p>
+								<p>
+									<span class="wishlistauthor">에드워드 애슈턴</span>
+									
+										<span class="wishlistauthor2">원</span>
+										<span class="wishlistauthor2">9,000</span>
+										<span class="wishlistauthor3">소장</span>
+
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div> <!--  container boyd end -->
