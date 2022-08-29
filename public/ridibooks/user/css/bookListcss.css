@@ -10,6 +10,8 @@
 	color: rgba(0, 0, 0, 0.49);
 	
 }
+
+
 a:link {
 	text-decoration: none
 	}
@@ -97,6 +99,13 @@ color: #000000;
 .bodyd{
 	max-width: 100%;
 	width: 1150px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bodydpurchase{
+	max-width: 100%;
+	width: 954px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -1038,6 +1047,130 @@ font-weight: 900;
 font-size: 12px;
 color: #0077D9;	
 }
+
+.alarmnew{
+
+margin-top: 17px;
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 900;
+font-size: 12px;
+color: #1F8CE6;
+
+border: 1px solid #1F8CE6;
+background: white;
+cursor: none;
+border-radius: 4px;
+
+width: 168px;
+height: 30.25px;	
+}
+
+.editrequest{
+
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 900;
+font-size: 12px;
+color: #808991;
+
+border: 1px solid #d1d5d9;
+background: white;
+cursor: none;
+border-radius: 4px;
+
+letter-spacing: -0.01em;
+
+width: 145px;
+height: 21px;	
+}
+
+.authorupdate{
+	font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+color: #92A7AD;
+
+}
+
+.authorcontent{
+		font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+color: #333333;
+
+line-height: 1.8em;
+word-break: break-all;
+}
+
+.authorbr{
+			font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 900;
+font-size: 13px;
+color: #999999;
+
+line-height: 1.8em;
+word-break: break-all;
+
+padding-top: 7px;
+margin: 0;
+}
+
+.authorbooktot{
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+color: #333333;
+letter-spacing: 0.1em;
+
+display: table-cell;
+vertical-align: top;
+}
+
+.authortablealign{
+	display: table-cell;
+    text-align: right;
+    vertical-align: top;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.authortablealign li{
+	display: inline-block;
+    border-left: 1px solid #ccc;
+    height: 1em;
+    font-size: 15px;
+    vertical-align: top;
+    margin-right: -7px;
+}
+
+.authortablealign li:first-child{
+ border-left:none;
+}
+
+
+.authortablealign a{
+	font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+color: #333333;
+vertical-align:top;
+padding: 8px;
+}
+
+#rrreec{
+	color:#999999
+}
+#rrreec:hover{
+	color:#333333;
+}
+
 #forgetpwd{
 	font-family: 'Inria Sans';
 font-style: normal;
