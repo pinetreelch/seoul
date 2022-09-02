@@ -989,6 +989,66 @@ font-weight: 600;
 font-size: 12px;
 color: #9EA7AD;
 }
+
+.tabletrpurchase{
+	font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+color: #808991;
+background: #F2F3f5;
+}
+.tabletrpurchasedate{
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+color: #808991;	
+}
+
+.tabletdpurchasetitle{
+	font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+color: #40474D;	
+}
+
+.tabletdpurchaseprice{
+	font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+color: #1F8CE6;	
+}
+
+.menutitle35{
+	font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 15px;
+color: #808991;	
+}
+.menutitle35 a{
+	color: #1F8CE6;
+}
+.menutitle35 a:hover{
+	color: black;
+}
+#tabledetail th{
+	font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+color: #808991;
+background: #F2F3f5;
+text-align: right;
+width: 157px;
+}
+#trhover:hover{
+	background: #f2f4f5;
+	cursor: pointer;
+}
  #toc-content {
     display: none;
   }
