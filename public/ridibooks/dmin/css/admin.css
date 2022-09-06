@@ -27,6 +27,28 @@
 	
 }
 
+.admintitle{
+		font-family: 'Inria Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	color: #40474D;
+}
+
+.adminname{
+	font-family: 'Inria Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	color: #40474D;
+}
+.adminname2{
+	font-family: 'Inria Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	color: #40474D;
+}
 body{
 	font-family: 'Inria Sans';
 	font-style: normal;
