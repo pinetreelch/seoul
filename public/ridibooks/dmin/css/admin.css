@@ -20,11 +20,10 @@
 .bodyd3{
 	
 	max-width: 100%;
-	width: 1264px;
-	
+	width: 70%;
 	padding-top: 30px;
-	margin-left:  260px;
-	margin-right: auto;
+	margin-left:  20%;
+	margin-right: 50%;
 	letter-spacing: -0.1em;
 }
 .heading{
@@ -80,6 +79,14 @@
 	cursor:pointer;
 }
 
+.codeGroupadmintitle{
+	font-family: 'Noto Sans KR', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	letter-spacing: 0.1em;
+	color: #40474D;
+}
 #accorditem{
 	font-family: 'Noto Sans KR', sans-serif;
 	font-style: normal;
