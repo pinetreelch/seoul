@@ -1396,5 +1396,16 @@ font-weight: 700;
 font-size: 20px;
 color: #1f8ce6;
 margin: 0;
-
 }
+
+
+/* 여기부터 결제완료  페이지  */
+
+.tablestyle{
+	font-style: normal;
+font-weight: 200;
+font-size: 14px;
+color: inherit;
+line-height: 30px;
+}
+
